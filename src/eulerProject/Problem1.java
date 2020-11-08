@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Problem1 implements Problems{
 
-	public int result;
+	private int result;
 
 	@Override
 	public void getSolvingResult() {
 		solving();
-		System.out.println("Result of Problem1: "+result+"\n");
+		System.out.println("Result of Problem 1: "+result);
 	}
 
 	@Override
